@@ -43,7 +43,7 @@ void info::putdata()
     system("cls");
     cout << "\n\tYOUR BILL-";
     cout << "\n\t\t  ====================================";
-    cout << "\n\t\t|          SUNITA milk dairy           |" << endl;
+    cout << "\n\t\t|         DESI milk dairy           |" << endl;
     cout << "\n\t\t  Name : " << name << "       No:" << no << endl;
     cout << "\n\t\t  Milk session: " << day << endl;
     cout << "\n\t\t  Milk : " << milk << " Litre"
@@ -130,7 +130,7 @@ void menu()
 {
     system("cls");
 
-    cout << "\n\n\t\tWelcome to SUNITA milk dairy [ " << user << " ]";
+    cout << "\n\n\t\tWelcome to DESI milk dairy [ " << user << " ]";
     time_t my_time = time(NULL);
 
     cout << "\t    DATE: " << ctime(&my_time);
@@ -195,7 +195,7 @@ void meal()
 
         cout << "\n\tYour Bill-";
         cout << "\n\t\t _________________________________________";
-        cout << "\n\t\t|           SUNITA MILK DAIRY                |";
+        cout << "\n\t\t|           DESI MILK DAIRY                |";
         cout << "\n\n\t\t  Product name                Quantity   ";
         cout << "\n\n\t\t  *Mahalakshmi Animal MEAL       " << how;
         cout << "\n\n\t\t          Total Bill-" << totalval << "rs";
@@ -211,7 +211,7 @@ void meal()
 
         cout << "\n\tYour Bill-";
         cout << "\n\t\t _________________________________________";
-        cout << "\n\t\t|           SUNITA MILK DAIRY             |";
+        cout << "\n\t\t|           DESI MILK DAIRY             |";
         cout << "\n\n\t\t  Product name                 Quantity   ";
         cout << "\n\n\t\t  *Mahalakshmi Animal Bhusa       " << how;
         cout << "\n\n\t\t          Total Bill-" << totalval << "rs";
@@ -227,7 +227,7 @@ void meal()
 
         cout << "\n\tYour Bill-";
         cout << "\n\t\t _________________________________________";
-        cout << "\n\t\t|          SUNITA MILK DAIRY              |";
+        cout << "\n\t\t|          DESI MILK DAIRY              |";
         cout << "\n\n\t\t   Product name                Quantity   ";
         cout << "\n\n\t\t  *growth in Milk-Product        " << how;
         cout << "\n\n\t\t          Total Bill-" << totalval << "rs";
@@ -287,7 +287,7 @@ void loan()
 
         cout << "\n\tYour Loan receipt-";
         cout << "\n\t\t _________________________________________";
-        cout << "\n\t\t|         SUNITA MILK DAIRY--           |";
+        cout << "\n\t\t|         DESI MILK DAIRY--           |";
         cout << "\n\n\t\t   Home loan[on 12%]  -" << principal << "rs";
         cout << "\n\n\t\t   Interest           -" << interest << "rs";
         cout << "\n\n\t\t   Total loan due     -" << totaldue << "rs";
@@ -315,7 +315,7 @@ void loan()
 
         cout << "\n\tYour Loan receipt-";
         cout << "\n\t\t _________________________________________";
-        cout << "\n\t\t|         SUNITA MILK DAIRY--           |";
+        cout << "\n\t\t|         DESI MILK DAIRY--           |";
         cout << "\n\n\t\t   Car loan[on 10%]   -" << principal << "rs";
         cout << "\n\n\t\t   Interest           -" << interest << "rs";
         cout << "\n\n\t\t   Total loan due     -" << totaldue << "rs";
@@ -343,7 +343,7 @@ void loan()
 
         cout << "\n\tYour Loan receipt-";
         cout << "\n\t\t _________________________________________";
-        cout << "\n\t\t|        SUNITA MILK DAIRY--           |";
+        cout << "\n\t\t|        DESI MILK DAIRY--           |";
         cout << "\n\n\t\t Agriculture loan[on 7%] -" << principal << "rs";
         cout << "\n\n\t\t      Interest           -" << interest << "rs";
         cout << "\n\n\t\t      Total loan due     -" << totaldue << "rs";
@@ -370,9 +370,9 @@ void loan()
 void about()
 {
     system("cls");
-    cout << "\n\n\t\tAbout SUNITA milk dairy";
+    cout << "\n\n\t\tAbout DESI milk dairy";
     cout << "\n\t\t ============================================";
-    cout << "\n\t\t|  SUNITA milk dairy is a leading dairy      |";
+    cout << "\n\t\t|  DESI milk dairy is a leading dairy      |";
     cout << "\n\t\t|  in the region, providing quality dairy   |";
     cout << "\n\t\t|  products to our customers. We are        |";
     cout << "\n\t\t|  committed to delivering fresh and        |";
